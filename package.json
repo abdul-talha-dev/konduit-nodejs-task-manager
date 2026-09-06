@@ -1,0 +1,12 @@
+{
+  "name": "konduit-nodejs-task-manager",
+  "version": "1.0.0",
+  "description": "A simple Node.js task manager deployed with Konduit on Civo",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
