@@ -120,10 +120,6 @@ app.get("/health", (req, res) => {
   });
 });
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../public/index.html"));
-});
-
 ensureDataFile();
 
 app.listen(PORT, () => {
